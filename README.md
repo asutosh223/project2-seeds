@@ -1,4 +1,5 @@
 # Project 2 - SEEDS
+
 ## Domain
 Measurements of geometrical properties of kernels belonging to three different varieties of wheat. A soft X-ray technique and GRAINS package were used to construct all seven, real-valued attributes.The kernels of three varieties of wheat were examined under soft X- ray technology and a number of geometric properties were recorded. The X- ray technology is non-destructive and substantially cheaper than other imaging technologies and could possibly be used as a means to identify the variety of wheat.
 
@@ -86,9 +87,7 @@ Few more option for cluster Analysis are Gaussian Mixture Model, Cluster Dendrog
 
 ## Benchmark Model
 
-A naive model would be average of each col (factor of seeds) & analyse the variance between each type of seed.
-
-![untitled](https://user-images.githubusercontent.com/33742913/35469536-45465d12-02eb-11e8-917f-8ab4b15e8931.png)
+n/a Clustering generally does not have a benchmark model since we have no targets.
 
 ## Performance Metric 
 Given that this is a clustering task, we can measure the success of our model using Silhouette Score or Dunn Index
@@ -102,4 +101,3 @@ Given that this is a clustering task, we can measure the success of our model us
 K-Means algorithms performed very well on this data set and were able to identify the variety of wheat by the geometric properties of the seed kernels.  The K-Means was able to successfully identify three naturally occurring classes without using the label attribute. This fits with the label attribute and what we know about the data.  
 
 This experiment also shows that it would be possible to use the K-Means algorithm to generate a set of classes  from data that doesn’t have a classification label attribute.
-# Project-Seeds
