@@ -101,3 +101,5 @@ Given that this is a clustering task, we can measure the success of our model us
 K-Means algorithms performed very well on this data set and were able to identify the variety of wheat by the geometric properties of the seed kernels.  The K-Means was able to successfully identify three naturally occurring classes without using the label attribute. This fits with the label attribute and what we know about the data.  
 
 This experiment also shows that it would be possible to use the K-Means algorithm to generate a set of classes  from data that doesn’t have a classification label attribute.
+
+![tree](https://user-images.githubusercontent.com/33742913/35487214-f2ca3cc2-042d-11e8-990f-1557e22b64e2.PNG)
